@@ -20,3 +20,7 @@ body {
 .text-justify {
     text-align: justify;
 }
+
+.card img {
+    height: 30vh;
+}
