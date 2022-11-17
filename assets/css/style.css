@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo-viajes {
+    width: 5%;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
