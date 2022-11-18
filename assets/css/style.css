@@ -33,6 +33,17 @@ p {
     background-color: white;
 }
 
+
+.bg-success {
+    transition: all .3s linear;
+    opacity: 1;
+}
+
+.bg-transparent {
+    transition: all .3s linear;
+    opacity: 1;
+}
+
 @media (max-width: 576px) {
 
     body {
