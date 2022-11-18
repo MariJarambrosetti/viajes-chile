@@ -5,6 +5,10 @@ body {
     background-color: black;
 }
 
+p { 
+    margin-bottom: 0!important;
+}
+
 #logo-viajes {
     width: 5%;
 }
