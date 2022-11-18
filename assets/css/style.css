@@ -10,7 +10,7 @@ p {
 }
 
 #logo-viajes {
-    width: 5%;
+    width: 2em;
 }
 
 .navbar a {
@@ -27,4 +27,47 @@ p {
 
 .card img {
     height: 30vh;
+}
+
+.navbar-toggler {
+    background-color: #198754;
+}
+
+@media (max-width: 576px) {
+    
+    body {
+        font-size: 0.8em;
+    }
+    
+    .container {
+        width: 95%!important;
+    }
+    .carousel-item img {
+        height: auto;
+    }
+
+    /* .navbar {
+        position: inherit;
+    } */
+
+    .navbar .container-fluid {
+        padding: 0!important;
+        margin: 1em!important;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        opacity: 0;
+    }
+
+    #who-are-we h1 {
+        padding: 0 !important;
+    }
+
+    #features h2 {
+        padding: 0 !important;
+    }
+
+    #contact h2 {
+        padding: 0 !important;
+    }
 }
