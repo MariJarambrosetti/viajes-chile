@@ -9,6 +9,17 @@ p {
     margin-bottom: 0!important;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s linear;
+    opacity: 1;
+}
+
+a:hover {
+    color: #e1dede;
+}
+
 #logo-viajes {
     width: 2em;
 }
@@ -29,10 +40,6 @@ p {
     height: 30vh;
 }
 
-.navbar-toggler {
-    background-color: white;
-}
-
 
 .bg-success {
     transition: all .3s linear;
@@ -43,6 +50,16 @@ p {
     transition: all .3s linear;
     opacity: 1;
 }
+
+/* Medium Devices */
+
+@media (max-width: 1100px) {
+    body {
+        font-size: 0.8em;
+    }
+}
+
+/* Small Devices */
 
 @media (max-width: 576px) {
 
